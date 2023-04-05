@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
+}
+
+header {
+  height: 50px;
+  padding: 10px 20px;
+  background-color: #218380;
+  color: white;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#leaderboard {
+  cursor: pointer;
+}
+
+.box {
+  width: 50vw;
+  margin: 5rem auto;
+  padding: 5rem 4rem;
+  border-radius: 30px;
+  border: 1px solid rgb(168, 164, 164);
+  box-shadow: 5px 5px 10px rgb(92, 87, 87);
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.description {
+  margin-bottom: 1rem;
+}
+
+.description p {
+  line-height: 1.5rem;
+  font-size: 15px;
+}
+
+.action-btn {
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #218380;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background-color: #467775;
+}
+
+.option {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #218380;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #467775;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+#initials {
+  height: 45px;
+  outline: none;
+  font-size: 20px;
+  padding: 10px 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 90vw;
+  }
+}
